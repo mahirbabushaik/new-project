@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #003366;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: #0055a5;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+.hero {
+    background-image: url("https://media.istockphoto.com/id/2198907844/photo/people-students-and-applause-at-university-for-graduation-peer-support-and-happy-for.jpg?s=2048x2048&w=is&k=20&c=_AcJ-xYnjRt6SrfWP3IIMLbidtFxH0S3xvPNTJNPcAY=");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.about {
+    padding: 70px 0;
+    background: #f9fbff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    color: #004e92;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.about-highlights {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.highlight:hover {
+    background: #004e92;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    color: #004e92;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.about-highlights {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.highlight:hover {
+    background: #004e92;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+
+footer {
+    background-color: #0055a5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Faculty Section */
+.faculty {
+    padding: 60px 0;
+    background: #f4f7fb;
+    text-align: center;
+}
+
+.faculty h2 {
+    margin-bottom: 40px;
+    color: #004e92;
+}
+
+.faculty-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* Courses Section */
+.courses {
+    padding: 60px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+.courses h2 {
+    margin-bottom: 40px;
+    color: #004e92;
+}
+
+.course-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.course-card {
+    background: #f4f7fb;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.course-card h3 {
+    margin-bottom: 10px;
+    color: #000428;
+}
+
+.course-card p {
+    color: #555;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    background: #004e92;
+    color: white;
+}
+
+.course-card:hover h3,
+.course-card:hover p {
+    color: white;
+}
+
+
+/* Engineering Departments */
+.engineering-departments {
+    padding: 70px 0;
+    background: #f4f7fb;
+    text-align: center;
+}
+
+.engineering-departments h2 {
+    margin-bottom: 40px;
+    color: #004e92;
+}
+
+.dept-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.dept-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.dept-card h3 {
+    margin-bottom: 15px;
+    color: #004e92;
+}
+
+.dept-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.dept-card:hover {
+    transform: translateY(-8px);
+    background: #004e92;
+    color: white;
+}
+
+.dept-card:hover h3,
+.dept-card:hover p {
+    color: white;
+}
